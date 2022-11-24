@@ -1,0 +1,33 @@
+.box-container{
+    width: 216px;
+    height: 216px;
+    flex-wrap: wrap;
+    margin: 3rem;
+    box-shadow: 1px 4px 6px 3px cyan;
+    background-color: #72c5e0;
+}
+
+.box{
+    font-size: 1.8rem;
+    color: rgb(202, 71, 6);
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    background-color: rgb(233, 239, 237);
+}
+.flex{
+    display: flex;
+}
+.board{
+    
+    width: 34%;
+
+}
+.board-details{
+ 
+    width: 216px;
+    height: 216px;
+    margin: 2rem 0rem;
+    text-align: initial;
+    font-size: 1.8rem;
+}
