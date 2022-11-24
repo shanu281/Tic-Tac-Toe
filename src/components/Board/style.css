@@ -31,3 +31,26 @@
     text-align: initial;
     font-size: 1.8rem;
 }
+button{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.8rem 1.6rem;
+    border-radius: 10px;
+    margin: 1rem 0 0 4rem;
+    background-color: brown;
+    color: white;
+
+}
+.sec-btn{
+    font-size: 1rem;
+    padding: 0.2rem 0.8rem;
+    margin: 0.3rem 1.5rem;
+    background-color: gray;
+}
+.hide{
+    display: none;
+}
+.show{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
