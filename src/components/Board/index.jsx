@@ -1,5 +1,7 @@
 import react from "react"
 import "./style.css"
+import ConfettiGenerator from "confetti-js";
+
 class Board extends react.Component {
     constructor(props) {
         super(props)
@@ -10,10 +12,17 @@ class Board extends react.Component {
             winner: "",
         }
     }
+componentDidMount(){
+   
+    var confettiSettings = { target: 'winner' };
+var confetti = new ConfettiGenerator(confettiSettings);
+confetti.render() 
+}
 
     handleClick = (i) => {
         if (this.state.boxes[i] || this.state.winner) {
             return
+           
         }
         let newBoxes = [...this.state.boxes]
         newBoxes[i] = this.state.currentPlayer
@@ -82,6 +91,7 @@ class Board extends react.Component {
                         }
                     </div>
                 </div>
+                <canvas id="winner"></canvas>
             </>
         )
     }
